@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		8B2213B8287467C800BCE069 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2213B7287467C800BCE069 /* LoginViewModel.swift */; };
 		8B2213BA28746A2E00BCE069 /* ValidateRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2213B928746A2D00BCE069 /* ValidateRepository.swift */; };
-		8B2213BD28746A8E00BCE069 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8B2213BC28746A8E00BCE069 /* Alamofire */; };
 		8B2213BF28746AB000BCE069 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2213BE28746AB000BCE069 /* Constants.swift */; };
 		8B2213C128746DC700BCE069 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2213C028746DC700BCE069 /* UserDefault.swift */; };
 		8B2213C328746F7A00BCE069 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2213C228746F7A00BCE069 /* MainViewController.swift */; };
 		8B2213C5287470AC00BCE069 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2213C4287470AC00BCE069 /* HomeController.swift */; };
 		8B2213C7287470B700BCE069 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2213C6287470B700BCE069 /* SettingViewController.swift */; };
+		8B4FA02D2875407B003D909B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8B4FA02C2875407B003D909B /* Alamofire */; };
 		8B53E29728745F8F00C15C8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B53E29628745F8F00C15C8C /* AppDelegate.swift */; };
 		8B53E29928745F8F00C15C8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B53E29828745F8F00C15C8C /* SceneDelegate.swift */; };
 		8B53E29E28745F8F00C15C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B53E29C28745F8F00C15C8C /* Main.storyboard */; };
@@ -73,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B2213BD28746A8E00BCE069 /* Alamofire in Frameworks */,
+				8B4FA02D2875407B003D909B /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +202,7 @@
 			);
 			name = Exam;
 			packageProductDependencies = (
-				8B2213BC28746A8E00BCE069 /* Alamofire */,
+				8B4FA02C2875407B003D909B /* Alamofire */,
 			);
 			productName = Exam;
 			productReference = 8B53E29328745F8F00C15C8C /* Exam.app */;
@@ -277,7 +277,7 @@
 			);
 			mainGroup = 8B53E28A28745F8F00C15C8C;
 			packageReferences = (
-				8B2213BB28746A8E00BCE069 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				8B4FA02B2875407B003D909B /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 8B53E29428745F8F00C15C8C /* Products */;
 			projectDirPath = "";
@@ -438,7 +438,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -492,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -516,6 +516,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -543,6 +544,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -670,20 +672,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8B2213BB28746A8E00BCE069 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		8B4FA02B2875407B003D909B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		8B2213BC28746A8E00BCE069 /* Alamofire */ = {
+		8B4FA02C2875407B003D909B /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8B2213BB28746A8E00BCE069 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = 8B4FA02B2875407B003D909B /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
